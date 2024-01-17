@@ -141,7 +141,7 @@ def btnClick(btn, number):
                     answerCount += 1
         else:
             gw.update()
-            time.sleep(1.5)
+            time.sleep(0.5)
             for key in Answer_dict:
                 key["image"] = "pyimage5"
 
